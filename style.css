@@ -1,0 +1,244 @@
+body{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+header li a {
+       
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        color:#263859; 
+        font-weight: bold;
+
+}
+header li{
+        display: inline-block;
+        list-style: none;
+        padding: 10px;
+        font-weight: 500;
+}
+header li:hover a{
+    opacity: 0.5;
+}
+header h3 a{
+    text-decoration: none;
+    font-family:serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: #c05c7e;
+}
+
+header h3 span{
+    color: #2d3561;
+    font-size: 40px;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero-container{
+    background: #f9f3ec;
+    height: 90vh;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+.about-me{
+    text-align: center;
+}
+.main-pic{
+    object-fit: cover;
+    height: 90vh;
+}
+.about-me h1{
+    font-family:sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    color: #010059;
+}
+.about-me p{
+    font-family: sans-serif;
+    line-height: 1.5em;
+    color:rgb(48, 46, 46);
+    padding-top: 20px;
+    font-weight: 400;
+}
+.btn{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 19px;
+    border: 2px solid #28c3d4;
+    border-radius: 12px;
+    color: #010059;
+    transition: 0.4s;
+}
+.btn:hover{
+    background: #28c3d4;
+}
+.border{
+    background: #50b6bb;
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    left:62%;
+    border-radius: 3px;
+}
+.service{
+    padding-top: 150px;
+    height: 80vh;
+}
+.service h1{
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+.service-item{
+     text-align: center;
+     padding-top: 50px;
+     max-width:33.3%; ;
+}
+.service-item p{
+    color:#eeeded; 
+    font-family: sans-serif;
+    padding: 10px;
+    line-height: 1.5em;
+}
+.icon{
+        font-size: 50px;
+        padding:  20px;
+        border: 2px solid #fff;
+        transform: rotate(45deg);
+        display: inline-block;
+        color: #fff;
+}
+.icon:first-of-type{
+    padding: 20px 23px;
+}
+.service-item i{
+    transform: rotate(-45deg)
+}
+.service-item h3{
+      padding-top: 20px;
+      color: #fff;
+      font-family: sans-serif;
+}
+.service-items{
+    display: flex;
+}
+.service-container{
+    background: #50b6bb;
+}
+.border1{
+    background: rgb(172, 24, 147);
+    width: 50px;
+    height: 4px;
+    position: absolute;
+    left:48%;
+    border-radius: 3px;
+}
+.social h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.social li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    margin: 0;
+    font-size: 40px;
+}
+.social{
+    text-align: center;
+}
+.social ul{
+    padding: 0;
+}
+.social ul li i{
+    color: #4AB3F4;
+}
+.testimonial{
+    text-align: center;
+}
+.testimonial h1{
+    text-transform: uppercase;
+}
+.parson{
+    padding-top: 10px;
+}
+.parson1{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.testimonial h4{
+    font-weight: 550;
+}
+.contact-container{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: #96f7d2;
+}
+@media (max-width:400px){
+    .container{
+        width: 90%;
+    }
+    .navber{
+        flex-direction: column;
+    }
+    .hero{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .service-items{
+        flex-direction: column;
+    }
+    .main-pic{
+        width: 350px;
+        height: 450px;
+        object-fit: cover;
+    }
+    .border{
+        left: 38%;
+    }
+    .hero-container{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .service{
+        padding-top: 40px;
+        height: auto;
+    }
+    .border1{
+        left: 45%;
+    }
+    .service-item{
+        max-width: 100%;
+        align-items: center;
+    }
+    header ul{
+        margin: 0;
+        padding: 0;
+    }
+}
+@media(max-width:650px){
+    .service{
+        height: auto;
+    }
+    .border1{
+        left: 47%;
+ } 
+}
